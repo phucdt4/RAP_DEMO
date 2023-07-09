@@ -1,0 +1,4 @@
+@EndUserText.label: 'CDS Custom Entity Demo'
+define service Zui_cust_entity_demo {
+  expose zcust_entity_demo;
+}
