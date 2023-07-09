@@ -1,0 +1,5 @@
+@EndUserText.label: 'Service Definition for manage Travels'
+define service ZUI_Travel_U {
+  expose /DMO/C_Travel_U as Travel;
+  expose /DMO/C_Booking_U as Booking;
+}

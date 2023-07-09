@@ -1,0 +1,7 @@
+@EndUserText.label: 'Service Definitiion Travels (Processor)'
+define service ZUI_Travel_Processor_M {
+  expose /DMO/C_Travel_Processor_M as Processor;
+  expose /DMO/I_Booking_M as Booking;
+  expose /DMO/I_Agency as Agency;
+  expose /DMO/I_Customer as Customer;
+}
